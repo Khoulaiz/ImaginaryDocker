@@ -68,4 +68,4 @@ ENV PORT 9000
 EXPOSE 9000
 
 # Run the outyet command by default when the container starts.
-ENTRYPOINT ["/go/bin/imaginary", "-cors", "-concurrency", "20"]
+ENTRYPOINT ["/go/bin/imaginary", "-cors", "-concurrency", "20", "-enable-url-source"]
